@@ -31,7 +31,7 @@ module SpreeGlobalize
 
       # preload translations
       def spree_base_scopes
-        super.with_translations #.includes(:translations).references(:translations)
+        super.with_translations
       end
     end
   end
